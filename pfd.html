@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <div class="container2" id="container2">
+        <div class="encabezado">
+          <div class="logob"><img src="img/logo.png" alt=""></div>
+          <div class="titulo"><h1>Formato de servicio</h1></div>
+          <div class="datosForm">
+             <p id="fechaOut">__/__/__</p>
+             <p id="codigoOut">--</p>
+          </div>
+        </div>
+        <div class="separador"></div>
+    
+        <div class="datosCliente">
+         <h3>1. Datos del Cliente</h3>
+         <div class="clienteDivs">
+            <tr>
+                <th><p id="nombreOut">/</p></th>
+                <th><p id="telefonoOut">/</p></th>
+                <th><p id="ciudadOut">/</p></th>
+                <th><p id="direccionOut">/</p></th>
+            </tr>           
+            
+         </div>
+        </div>
+    
+        <div class="datosCliente">
+         <h3>2. Tipo de contrato</h3>
+         <div class="clienteDivs">
+            <tr>
+                <th><p id="contratoNombreOut">/</p></th>
+                <th><p id="obraMaterialOut">/</p></th>
+                <th><p id="garantiaOtrosOut">/</p></th>
+                <th><p id="garantiaServicioOut">/</p></th>
+             </tr>
+         </div>        
+          
+        </div>
+    
+        <div class="datosCliente">
+           <h3>3. Datos del equipo</h3>
+           <div class="clienteDivs">
+            <tr>
+                <th><p id="marcasOut">/</p></th>
+                <th><p id="modelosOut">/</p></th>
+                <th><p id="serialesOut">/</p></th>
+                <th><p id="refrigeranteOut">/</p></th>
+                <th><p id="aceiteOut">/</p></th>
+            </tr> <br>       
+    
+           </div>
+           <div class="clienteDivs">
+            <tr>
+                <th><p id="operacionOut">/</p></th>
+                <th><p id="operacion2Out">/</p></th>
+                <th><p id="arranqueOut">/</p></th>
+                <th><p id="arranque2Out">/</p></th>
+                <th><p id="arrancadorOut">/</p></th>
+            </tr>
+           </div>
+        </div>
+    
+        <div class="datosCliente">
+            <h3>4. Condiciones físicas del sitio de Trabajo(propiedad cliente)</h3>
+            <div class="clienteDivs">
+                <tr>
+                    <th><p id="condicionOut"></p></th>                
+                    <th><p  id="observacionOut"></p></th>
+                </tr>
+            </div>
+        </div>
+    
+        <div class="datosCliente">
+            <h3>5. Descripción general del servicio</h3>
+            <p id="descripcionGeneralOut">/</p>
+        </div>
+    
+        <div class="datosCliente">
+           <h3>6. Actividades princpales</h3>
+           <div id="actividadesOut">
+            
+                <div class="imageContainer" id="imageContainer"></div>
+                <div class="imageContainer" id="imageContainer2"></div>
+                <div class="imageContainer" id="imageContainer3"></div>        
+            <br>
+                       
+           </div>
+           <p id="observacionesOut">/</p>
+        </div>
+    
+        <div class="datosCliente">
+            <h3>7. Estado del servcio</h3>
+            <p id="tareaOut">/</p>
+        </div>
+        <div class="datosCliente">
+            <h3>8. Repuestos Sugeridos</h3>
+            <div id=""></div>
+            <div class="clienteDivs" id="repuestosDivs">
+                <tr>
+                    <th><p id="cantidadOut">/</p></th>
+                    <th><p id="numeroParteOut">/</p></th>
+                    <th><p id="detalleOut">/</p></th>
+                </tr>
+            </div>
+            <div class="clienteDivs" id="">
+                <tr>
+                    <th><p id="cantidad2Out">/</p></th>
+                    <th><p id="numeroParte2Out">/</p></th>
+                    <th><p id="detalle2Out">/</p></th>
+                </tr>
+            </div>
+            <div class="clienteDivs" id="">
+                <tr>
+                    <th><p id="cantidad3Out">/</p></th>
+                    <th><p id="numeroParte3Out">/</p></th>
+                    <th><p id="detalle3Out">/</p></th>
+                </tr>
+            </div>
+              
+            
+        </div>
+        <div class="datosCliente">
+            <h3>9. Mano de obra</h3>
+            <div class="clienteDivs" id="manoObraDivs">
+                <tr>
+                    <th><p id="fechaObraOut">/</p></th>
+                    <th><p id="nombreTecnico1Out">/</p></th>
+                    <th><p id="horaLlegadaOut">/</p></th>
+                    <th><p id="horaSalidaOut">/</p></th>
+                    <th><p id="horasTotalesOut">/</p></th>
+                </tr>
+            </div>
+    
+            <div class="tecnicoDatos">
+                <h2>Servicio prestado por</h2>
+                <div class="clienteDivs">
+                    <p id="nombreTecnicoOut">Nombre:</p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <textarea style="display: none;" id="draw-dataUrl" class="form-control" rows="5">Para los que saben que es esto:</textarea>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="contenedor">
+                        <div class="col-md-12">
+                            <img id="draw-image" src="" alt="Tu firma aparecera Aqui!"/>
+                        </div>
+                    </div>
+                    <p id="telefonoTecnicoOut">Teléfono</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+   <script src="js/firma.js"></script>
+   <script src="js/script.js"></script>
+</body>
+</html>
